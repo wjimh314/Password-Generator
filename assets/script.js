@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector('#generate');
 
-var optionsLower = "abcdefghijklmnopqrstuvwxyz";
+var confirmLower = "abcdefghijklmnopqrstuvwxyz";
 var options= upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var options = number="8-126";
 var options = symbol="!@#$%^&*_-+=";
@@ -15,8 +15,8 @@ function generatePassword() {
     alert ("Password length must be between 8 and 126");
     var confirmLength = (prompt("How many characters would you like your password to contain?"));
     } 
-    var optionsLower=(prompt("would you like to add lowercase letters"));
-  if( optionsLower)
+    var confirmLower=(confirm("would you like to add lowercase letters"));
+  
   return password;
 }
 
