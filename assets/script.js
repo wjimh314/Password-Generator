@@ -2,9 +2,9 @@
 var generateBtn = document.querySelector('#generate');
 
 var confirmLower = "abcdefghijklmnopqrstuvwxyz";
-var options= upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var options = number="8-126";
-var options = symbol="!@#$%^&*_-+=";
+var confirmUpper="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var optionsNumber="8-126";
+var ConfirmSymbols="!@#$%^&*_-+=";
 
 function generatePassword() {
   var password = 'password';
@@ -16,6 +16,14 @@ function generatePassword() {
     var confirmLength = (prompt("How many characters would you like your password to contain?"));
     } 
     var confirmLower=(confirm("would you like to add lowercase letters"));
+    console.log(confirmLower)
+
+    var confirmUpper=(confirm("would you like to add uppercase letters"))
+    console.log(confirmUpper)
+
+    var confirmSymbols=(confirm("would you like to add special symbols"))
+    console.log(confirmSymbols)
+    
   
   return password;
 }
