@@ -33,10 +33,6 @@ function generatePassword() {
     if(confirmSymbols===false) {console.log("The user does not want to add symbols")}
     
     
-    var randomPassword=""
-    for (var i = 0; i < confirmLength; i++) {
-        randomPassword = randomPassword + passwordinputs[Math.floor(Math.random() * passwordinputs.length)];
-        console.log(randomPassword)}
     
     
     return password;
