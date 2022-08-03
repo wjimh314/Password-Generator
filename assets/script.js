@@ -4,9 +4,13 @@ var confirmLower = "abcdefghijklmnopqrstuvwxyz";
 var confirmUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var optionsNumber = "8-126";
 var ConfirmSymbols = "!@#$%^&*_-+=";
-var confirmLength = confirmLength,
-	confirmUpper,
-	confirmSymbol;
+var confirmLength = [
+	"confirmLength",
+	"confirmUpper",
+	"confirmlower",
+	"confirmUpper",
+	"confirmSymbol",
+];
 console.log(confirmLength);
 
 var password = "randomPassword";
