@@ -4,9 +4,9 @@ Module 3 challenge
 
 In this project we eddited the javascript for A HTML page to allow website to produce a random password.
 
-# github url :
+# github url : https://github.com/wjimh314/Password-Generator
 
-#live url:
+#live url: https://wjimh314.github.io/Password-Generator/
 
 ## acceptance criteria
 
