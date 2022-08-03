@@ -55,16 +55,19 @@ if (confirmSymbols === false) {
 }
 console.log(passwordinputs);
 
-const generatePassword = (confirmlength, passwordinputs) => {
+var generatePassword = (confirmlength, passwordinputs) => {
 	let password = "";
 	for (let i = 0; i < confirmlength; i++) {
 		password += passwordinputs.charAt(
 			Math.floor(Math.random() * confirmlength.length)
 		);
 	}
+	{
+		document.getElementById("password").value = password;
+	}
 	console.log(generate);
 	return password;
 };
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", password);
+generateBtn.addEventListener("click", "password");
