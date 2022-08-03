@@ -3,9 +3,13 @@
 Module 3 challenge
 
 In this project we eddited the javascript for A HTML page to allow website to produce a random password.
-# github url : 
+
+# github url :
+
+#live url:
 
 ## acceptance criteria
+
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
